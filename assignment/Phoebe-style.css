@@ -34,7 +34,7 @@ body {
 .box {
     display: block; 
     margin: 100px 0px 100px 0px; 
-    padding: 20px 50px 15px 50px; 
+    padding: 20px 50px 30px 50px; 
     border-radius: 20px; 
     border: 1px solid white; 
     background-color: rgba(50,50,50,0.8); 
