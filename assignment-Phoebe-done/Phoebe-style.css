@@ -40,6 +40,14 @@ body {
     background-color: rgba(50,50,50,0.8); 
 }
 
+#meow {
+    margin: 30px 0px 30px 0px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    row-gap: 25px; 
+}
+
 h1 {
     text-align: center; 
     font-size: 40px; 
@@ -53,8 +61,32 @@ p {
     text-align: justify; 
 }
 
-a {
+b {
+    font-weight: 800; 
+}
+
+a:link, a:visited {
     color: white; 
+}
+
+a:hover {
+    cursor: pointer; 
+    color: #aaaaaa; 
+}
+
+a.rainbow:link, a.rainbow:visited {
+    text-decoration: none; 
+}
+
+a.rainbow:hover {
+    background-color: #aaaaaa; 
+    background-image: linear-gradient(to right, #FFAAAA, #FFCCAA, #FFEEAA, #CCFFBB, #AACCFF, #DDBBFF, #FFCCFF); 
+    background-size: 100%; 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent; 
 }
 
 ul {
@@ -67,14 +99,9 @@ li {
 }
 
 details {
+    cursor: pointer; 
     font-size: 12px; 
     padding: 5px 0px 2px 20px; 
-}
-
-img.crochet {
-    height: 100px; 
-    width: 100px; 
-    padding: 5px 5px 0px 0px; 
 }
 
 img.profile {
@@ -91,4 +118,14 @@ img.flag {
     height: 25px; 
     vertical-align: middle; 
     margin-top: -5px; 
+}
+
+img.crochet {
+    height: 150px; 
+    width: 150px; 
+    padding: 5px 5px 0px 0px; 
+}
+
+img.sabrina {
+    width: 30%; 
 }
