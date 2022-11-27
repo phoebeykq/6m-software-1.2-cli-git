@@ -1,0 +1,29 @@
+Q1: What does CLI stands for?
+B: Command Line Interface
+
+Q2: GIT is a distributed version control.
+A: True
+
+Q3: GIT is the only version control tool.
+B: False
+
+Q4: The command git add is used to commit staged files.
+B: False
+
+Q5: The command git commit is used to stage untracked files.
+B: False
+
+Q6: Which GIT Command pushes committed code from local to remote repository?
+C: git push
+
+Q7: Which GIT Command is used to update local version of a repository from a remote repository?
+B: git pull
+
+Q8: Which GIT Command is used to download commits, files and refs from a remote repository into local repository?
+A: git fetch
+
+Q9: How do you check out a new branch?
+C: git checkout -b branch_name
+
+Q10: How do you merge two branch into one?
+D: git merge
